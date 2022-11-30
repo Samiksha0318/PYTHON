@@ -1,9 +1,10 @@
+#1
 i = 1
 while i <= 10:
     print(i)
     i += 1
 
-
+#2
 print("Number Pattern ")
 row = 5
 for i in range(1, row + 1, 1):
@@ -11,7 +12,7 @@ for i in range(1, row + 1, 1):
         print(j, end=' ')
      print("")
 
-
+#3
 s = 0
 n = int(input("Enter number "))
 for i in range(1, n + 1, 1):
@@ -19,13 +20,13 @@ for i in range(1, n + 1, 1):
 print("\n")
 print("Sum is: ", s)
 
-
+#4
 n = 2
 for i in range(1, 11, 1):
     product = n * i
     print(product)
 
-
+#5
 numbers = [12, 75, 150, 180, 145, 525, 50]
 for item in numbers:
     if item > 500:
@@ -35,7 +36,7 @@ for item in numbers:
     elif item % 5 == 0:
         print(item)
 
-
+#6
 num = 75869
 count = 0
 while num != 0:
@@ -43,7 +44,7 @@ while num != 0:
       count = count + 1
 print("Total digits are:", count)
 
-
+#7
 n = 5
 k = 5
 for i in range(0,n+1):
@@ -51,23 +52,23 @@ for i in range(0,n+1):
         print(j,end=' ')
     print()
 
-
+#8
 list1 = [10, 20, 30, 40, 50]
 new_list = reversed(list1)
 for item in new_list:
     print(item)
 
-
+#9
 for num in range(-10, 0, 1):
     print(num)
 
-
+#10
 for i in range(5):
     print(i)
 else:
     print("Done!")
 
-
+#11
 start = 25
 end = 50
 print("Prime numbers between", start, "and", end, "are:")
@@ -79,7 +80,7 @@ for num in range(start, end + 1):
         else:
             print(num)
 
-
+#12
 num1, num2 = 0, 1
 
 print("Fibonacci sequence:")
@@ -89,7 +90,7 @@ for i in range(10):
     num1 = num2
     num2 = res
 
-
+#13
 num = 5
 factorial = 1
 if num < 0:
@@ -101,7 +102,7 @@ else:
          factorial = factorial * i
     print("The factorial of", num, "is", factorial)
 
-
+#14
 num = 76542
 reverse_number = 0
 print("Given Number ", num)
@@ -111,17 +112,17 @@ while num > 0:
     num = num // 10
 print("Revere Number ", reverse_number)
 
-
+#15
 my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 for i in my_list[1::2]:
     print(i, end=" ")
 
-
+#16
 input_number = 6
 for i in range(1, input_number + 1):
     print("Current Number is :", i, " and the cube is", (i * i * i))
 
-
+#17
 n = 5
 start = 2
 sum_seq = 0
@@ -131,7 +132,7 @@ for i in range(0, n):
     start = start * 10 + 2
 print("\nSum of above series is:", sum_seq)
 
-
+#18
 rows = 5
 for i in range(0, rows):
     for j in range(0, i + 1):
@@ -143,19 +144,19 @@ for i in range(rows, 0, -1):
         print("*", end=' ')
     print("\r")
 
-
+#19
 list1 = ["Hello ", "take "]
 list2 = ["Dear", "Sir"]
 
 res = [x + y for x in list1 for y in list2]
 print(res)
 
-
+#20
 list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 res = list(filter(None, list1))
 print(res)
 
-
+#21
 list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
 list1[2][2].append(7000)
 print(list1)
